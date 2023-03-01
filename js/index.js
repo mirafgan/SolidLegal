@@ -24,7 +24,7 @@ $(()=>{
     });
     document.querySelectorAll('.owl-nav button span').forEach(item=> item.remove())
 })
-let slideImg = ['../img/Law_Degree.jpeg-2-thumb-big.jpg','../img/slider1.jpg'];
+let slideImg = ['img/Law_Degree.jpeg-2-thumb-big.jpg','img/slider1.jpg'];
 const slideContent = document.querySelectorAll('.slide-content');
 slideContent.forEach((item,i)=>{
     item.style.background = `url(${slideImg[i]})center/cover no-repeat`
